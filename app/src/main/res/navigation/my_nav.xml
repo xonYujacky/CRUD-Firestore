@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/satuFragment">
+
+    <fragment
+        android:id="@+id/satuFragment"
+        android:name="com.dc.crud_firestore.SatuFragment"
+        android:label="fragment_satu"
+        tools:layout="@layout/fragment_satu" />
+    <fragment
+        android:id="@+id/duaFragment"
+        android:name="com.dc.crud_firestore.DuaFragment"
+        android:label="fragment_dua"
+        tools:layout="@layout/fragment_dua" />
+    <fragment
+        android:id="@+id/tigaFragment"
+        android:name="com.dc.crud_firestore.TigaFragment"
+        android:label="fragment_tiga"
+        tools:layout="@layout/fragment_tiga" />
+</navigation>
